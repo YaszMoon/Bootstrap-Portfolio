@@ -1,1 +1,9 @@
+:root {
+    --pageBackground: rgb(173, 173, 204);
+    --darkColor: navy;
+    --lightColor: rgb(142, 142, 235);
+}
 
+body {
+    background-color: var(--pageBackground);
+}
