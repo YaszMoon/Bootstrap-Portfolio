@@ -8,6 +8,21 @@ body {
     background-color: var(--pageBackground);
 }
 
+.hero-container img {
+    height: 500px;
+    width: auto;
+}
+
+.project-row img {
+    width: auto;
+    height: 187px;
+}
+
+.challenge-row img {
+    height: 200px;
+    width auto;
+}
+
 footer {
     padding: 15px;
 }
