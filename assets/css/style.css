@@ -7,3 +7,11 @@
 body {
     background-color: var(--pageBackground);
 }
+
+footer {
+    padding: 15px;
+}
+#linksLogo {
+    display: flex;
+    justify-content: flex-end;
+}
