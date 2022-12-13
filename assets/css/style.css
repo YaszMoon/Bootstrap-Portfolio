@@ -8,6 +8,12 @@ body {
     background-color: var(--pageBackground);
 }
 
+.logo {
+    height: 50px;
+    width: auto;
+    margin: 0;
+}
+
 .hero-container img {
     height: 500px;
     width: auto;
@@ -16,6 +22,7 @@ body {
 .project-row img {
     width: auto;
     height: 187px;
+    /* position: center; */
 }
 
 .challenge-row img {
@@ -24,9 +31,23 @@ body {
 }
 
 footer {
-    padding: 15px;
+    padding: 15px;;
 }
-#linksLogo {
+
+#copyright {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+#connectLinks {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
+
+#connectLinks > * {
+    padding: 5px;
+}
+
