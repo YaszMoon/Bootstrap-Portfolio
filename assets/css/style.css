@@ -1,7 +1,11 @@
+/* Main */
 :root {
-    --pageBackground: rgb(173, 173, 204);
-    --darkColor: navy;
-    --lightColor: rgb(142, 142, 235);
+    --pageBackground: #878580; /*Middle Gray*/
+    --darkColor: #2B0A51; /*Russion Violet*/
+    --lightColor: #7C77B9; /*Middle Blue Purple*/
+    --contentLight: #F8F8F8; /*Cultured*/
+    --contentDark: #B6B2D0; /*Wild Blue Yonder*/
+    --TheBlack: #1D1E18; /*Black Chocolate*/
 }
 
 body {
@@ -9,17 +13,26 @@ body {
     max-width: 100vw;
 }
 
+h2 {
+    border-bottom: 2px solid var(--darkColor);
+}
+
+/* Jumbotron */
+.jumbotron, .jumbotron-fluid {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/* Navbar */
+
 .logo {
     height: 50px;
     width: auto;
     margin: 0;
 }
 
-.jumbotron, .jumbotron-fluid {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
+/* Hero */
 .hero-container {
     display: flex;
     height: 400px;
@@ -47,10 +60,28 @@ body {
 
 }
 
-.project-row img {
-    width: auto;
-    height: 187px;
-    /* position: center; */
+/* About Me */
+#aboutMe {
+    /* margin-bottom: 15px; */
+    background-color: var(--contentLight);
+}
+
+#aboutMe .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* Projects */
+/* Placeholder for projects CSS */
+
+/* Challenges */
+#work {
+    background-color: var(--contentDark);
+}
+
+#work h2 {
+    padding-top: 15px;
 }
 
 .challenge-row img {
@@ -58,8 +89,29 @@ body {
     width auto;
 }
 
+.challenge-row .card {
+    width: 20rem;
+    margin: 15px;
+}
+
+/* Misc */
+
+.btn-primary {
+    background-color: var(--darkColor);
+    border-color: var(--darkColor);
+    opacity: 0.8;
+}
+
+.btn-primary:hover {
+    background-color: var(--darkColor);
+    border-color: var(--darkColor);
+    opacity: 1;
+}
+
+/* Footer */
 footer {
-    padding: 15px;;
+    padding: 15px;
+    background-color: var(--lightColor) !important;
 }
 
 #copyright {
@@ -78,4 +130,3 @@ footer {
 #connectLinks > * {
     padding: 5px;
 }
-
