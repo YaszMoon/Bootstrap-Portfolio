@@ -26,6 +26,3 @@ Visit the deployed page [here](https://yaszmoon.github.io/Bootstrap-Portfolio/).
 
 * Had issues with the hero section and ended up using a flexbox just to complete the section, however it is not responsive.
 * Not yet possible to fulfill all the the acceptance criteria.
-
-# Demo
-
